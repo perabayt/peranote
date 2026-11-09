@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/peranote/uygulama/favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="description" content="peranote — kişisel not defteri" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+    />
+    <title>peranote</title>
+    <script>
+      // Sayfa açılırken temayı hemen uygula (beyaz parlamayı önler)
+      try {
+        var t = localStorage.getItem('peranote.theme')
+        t = t ? JSON.parse(t) : null
+        if (!t) t = 'default'
+        document.documentElement.setAttribute('data-theme', t)
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/peranote/uygulama/assets/index-DQ9X8cun.js"></script>
+    <link rel="modulepreload" crossorigin href="/peranote/uygulama/assets/chunk-BHe-jwch.js">
+    <link rel="stylesheet" crossorigin href="/peranote/uygulama/assets/index-BHAszYD-.css">
+    <meta name="robots" content="noindex, nofollow">
+    <script src="/_ortak/serit.js" defer></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
